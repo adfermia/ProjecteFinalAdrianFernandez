@@ -1040,6 +1040,7 @@ GameObject:
   - component: {fileID: 97694123}
   - component: {fileID: 97694122}
   - component: {fileID: 97694128}
+  - component: {fileID: 97694129}
   m_Layer: 0
   m_Name: SuperFroggy
   m_TagString: Player
@@ -1212,6 +1213,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 97694125}
+--- !u!114 &97694129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97694121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adacf7f50bf4ae44cb96bda05f042158, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerSelected: 1
+  animator: {fileID: 97694125}
+  spriteRenderer: {fileID: 97694126}
+  playersController:
+  - {fileID: 9100000, guid: 2df2cc3d50ee6a04baa3fb794b7bd46d, type: 2}
+  - {fileID: 9100000, guid: 8a6fdd0de9d65de498a1943c260774eb, type: 2}
+  - {fileID: 9100000, guid: 1e441b407b89a134daa2ac82db8a5ce4, type: 2}
+  playersRenderer:
+  - {fileID: -6367560908665664636, guid: cd947491a13509945aa1b644f9db3ef2, type: 3}
+  - {fileID: -6367560908665664636, guid: d348dff3819df794186a80cb95777629, type: 3}
+  - {fileID: -6367560908665664636, guid: 40de9a8703e2e5a47882b0b86451c741, type: 3}
 --- !u!1 &98741444
 GameObject:
   m_ObjectHideFlags: 0
@@ -9403,6 +9427,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &819930361 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5470974073873785039, guid: 593e69db5f82cdb458f6875220c46351, type: 3}
+  m_PrefabInstance: {fileID: 5470974075548885585}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &819930367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 819930361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f90e0007636d2545bbe0edb30695f84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startWaitTime: 0
 --- !u!1 &823858181
 GameObject:
   m_ObjectHideFlags: 0
